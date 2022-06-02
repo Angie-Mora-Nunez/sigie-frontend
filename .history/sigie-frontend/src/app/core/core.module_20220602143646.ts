@@ -13,7 +13,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CommonModule,FlexLayoutModule
   ],
   exports:[
-    SigieHeaderComponent
+    
   ]
 })
 export class CoreModule { }

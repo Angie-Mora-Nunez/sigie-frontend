@@ -10,10 +10,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SigieHeaderComponent
   ],
   imports: [
-    CommonModule,FlexLayoutModule
-  ],
-  exports:[
-    SigieHeaderComponent
+    CommonModule,
+    FlexLayoutModule
   ]
 })
 export class CoreModule { }

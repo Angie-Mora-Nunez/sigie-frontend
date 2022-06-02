@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SigieHeaderComponent } from './sigie-header/sigie-header.component';
-import { FlexLayoutModule } from '@angular/flex-layout';
 
 
 
@@ -10,10 +9,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     SigieHeaderComponent
   ],
   imports: [
-    CommonModule,FlexLayoutModule
-  ],
-  exports:[
-    SigieHeaderComponent
+    CommonModule,
   ]
 })
 export class CoreModule { }
